@@ -24,6 +24,21 @@ header .logo {
   font-size: 20px;
 }
 
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  transition: opacity 500ms ease;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
 header .presentation {
   margin: 50px 0;
   background: url('./img/img_1.jpg') no-repeat;
@@ -45,4 +60,9 @@ header .presentation::after {
   font-size: 40px;
   font-weight: 600;
   color: #fff;
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
 }
