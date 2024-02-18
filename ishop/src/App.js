@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { useState } from "react";
 import { nanoid } from "nanoid";
+import Items from "./components/Items";
 
 const arrItems = [
   {
@@ -60,6 +61,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
+      <Items items={items} />
       <Footer />
     </div>
   );
